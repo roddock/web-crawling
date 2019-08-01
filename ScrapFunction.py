@@ -1,6 +1,6 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-import re
+import
 def getBody(url):#get body of page
     try:
         html = urlopen(url)
